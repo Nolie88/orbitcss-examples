@@ -1,8 +1,12 @@
-# Orbitcss examples
-Example pages for [OrbitCSS](https://orbitcss.com)
+# [OrbitCSS Examples](https://orbitcss.com/examples)
+Simple HTML examples to kickstart your next project
+
+<a href="https://orbitcss.com"><img src="https://orbitcss.com/img/orbitcss_transparent.png" alt="A modern CSS framework based on Flexbox" style="max-width:100%;" width="600"></a>
 
 ## Getting Started
-These examples demonstrate the out-of-the box features of OrbitCSS and can act as a quick starting point for your own future projects.
+Copy the HTML for any of the example pages into your own project.
+
+These examples require the OrbitCSS framework. For setup and installation see [OrbitCSS Installation](https://orbitcss.com/documentation/getting-started/installation).
 
 View the examples live on the [OrbitCSS examples page](https://orbitcss.com/examples).
 
