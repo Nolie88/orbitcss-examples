@@ -6,7 +6,7 @@ Simple HTML examples to kickstart your next project
 ## Getting Started
 Copy the HTML for any of the example pages into your own project.
 
-These examples require the OrbitCSS framework. For setup and installation see [OrbitCSS Installation](https://orbitcss.com/documentation/getting-started/installation).
+The OrbitCSS framework is required to customize these examples. For setup and installation see [OrbitCSS Installation](https://orbitcss.com/documentation/getting-started/installation).
 
 View the examples live on the [OrbitCSS examples page](https://orbitcss.com/examples).
 
