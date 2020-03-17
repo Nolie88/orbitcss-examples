@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/orbitcss/css/orbit.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <title>OrbitCSS - Basic Portfolio Example</title>
+
+    <style>
+      .hero:not(:last-of-type), .top {
+        border-bottom: 1.5px solid rgba(219,219,219,.36);
+      }
+
+      .mouse {
+        border: 2px solid #393939;
+        border-radius: 20px;
+        height: 30px;
+        margin: 30px auto 30px auto;
+        width: 15px;
+      }
+
+      .mouse__scroll {
+        background: #393939;
+        border-radius: 8px;
+        height: 5px;
+        margin: auto auto;
+        position: relative;
+        width: 5px;
+        -webkit-animation: scrollDownUp 3s infinite;
+        animation: scrollDownUp 3s infinite;
+      }
+
+      @-webkit-keyframes scrollDownUp {
+        0% {top: 5px;}
+        50% {top: 15px;}
+        100% {top: 5px;}
+      }
+
+      @keyframes scrollDownUp {
+        0% {top: 5px;}
+        50% {top: 15px;}
+        100% {top: 5px;}
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="top is-tablet-down">
+      <div class="top__brand has-no-padding-left">
+        <div class="image is-tiny-square is-round">
+          <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-light" style="border-radius: 50%;"></svg>
+        </div>
+      </div>
+      <div class="top__brand has-no-padding-left">
+        <h6 class="has-no-margin">RHYS HALL</h6>
+      </div>
+      <div class="top__burger is-end">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <div class="grid has-no-col-padding">
+      <div class="column is-shrink is-desktop-up" style="width: 250px; position: fixed;">
+        <div class="card has-no-shadow" style="height: 100vh;">
+          <div class="card__content grid is-vertical">
+            <div class="column is-shrink" style="margin-right: auto;">
+              <div class="image is-square is-round">
+                <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-light" style="border-radius: 50%;"></svg>
+              </div>
+            </div>
+            <div class="column grid has-no-padding-top has-no-padding-left has-no-padding-right is-flex-start">
+              <div class="column is-full">
+                <h4>RHYS HALL</h4>
+              </div>
+              <div class="column is-full">
+                <ul class="has-no-list-style has-link-inherit">
+                  <li><a class="is-hover-underline" href="#">HOME</a></li>
+                  <li><a class="is-hover-underline" href="#">ABOUT ME</a></li>
+                  <li><a class="is-hover-underline" href="#">PORTFOLIO</a></li>
+                  <li><a class="is-hover-underline" href="#">BLOG</a></li>
+                  <li><a class="is-hover-underline" href="#">CONTACT ME</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card__footer grid has-link-inherit">
+            <div class="column is-full">
+              <ul class="is-inline-list">
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+            <div class="column is-full has-no-padding-top">
+              <small class="has-text-muted">&copy; 2020 OrbitCSS</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-shrink has-no-padding is-desktop-up" style="width: 250px;"></div>
+      <div class="column">
+        <div class="container">
+          <div class="hero is-full">
+            <div class="hero__content grid is-vertical is-vertically-centered has-text-center">
+              <div class="column is-full">
+                <h1>Hello,</h1>
+              </div>
+              <div class="column is-11 is-desktop-9 is-desktop-x-8">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+              </div>
+              <div class="column is-full">
+                <div class="is-button-group has-centered">
+                  <a href="#" class="button is-primary">
+                    Portfolio
+                  </a>
+                  <a href="#" class="button">
+                    Contact me
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="hero__footer">
+              <div class="mouse">
+                <div class="mouse__scroll"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero">
+            <div class="hero__content grid has-centered">
+              <div class="column is-full is-desktop-half">
+                <h2>About Me!</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.
+                  <br><br>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+              </div>
+              <div class="column is-7 is-desktop-4 is-desktop-offset-1">
+                <svg width="100%" height="100%" viewBox="0 0 100 80" class="has-bg-light"></svg>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero">
+            <div class="hero__content grid has-centered">
+              <div class="column is-11">
+                <h2>Portfolio</h2>
+              </div>
+              <div class="column is-11 grid has-no-padding">
+                <div class="column is-mobile-half is-4">
+                  <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-light"></svg>
+                </div>
+                <div class="column is-mobile-half is-4">
+                  <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-light"></svg>
+                </div>
+                <div class="column is-mobile-half is-4">
+                  <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-light"></svg>
+                </div>
+                <div class="column is-mobile-half is-4">
+                  <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-light"></svg>
+                </div>
+                <div class="column is-mobile-half is-4">
+                  <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-light"></svg>
+                </div>
+                <div class="column is-mobile-half is-4">
+                  <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-light"></svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero">
+            <div class="hero__content grid has-centered has-link-inherit">
+              <div class="column is-11 grid has-no-padding">
+                <div class="column">
+                  <h2>Latest Posts</h2>
+                </div>
+                <div class="column is-shrink">
+                  <a href="#">
+                    <b>View all >></b>
+                  </a>
+                </div>
+              </div>
+              <div class="column is-11 grid has-no-padding">
+                <div class="column is-4">
+                  <div class="card has-no-shadow has-no-border">
+                    <a href="#" class="card__image">
+                      <svg width="100%" height="100%" viewBox="0 0 100 60" class="has-bg-light"></svg>
+                    </a>
+                    <div class="card__content has-no-padding-left has-no-padding-right">
+                      <a href="#" class="is-hover-underline">
+                        <h5>Some wonderful photos of ducks I took at the park</h5>
+                      </a>
+                      <p class="grid has-no-col-padding has-text-light-grey">
+                        <small class="column">
+                          September 29, 2019 - Rhys Hall
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-4">
+                  <div class="card has-no-shadow has-no-border">
+                    <a href="#" class="card__image">
+                      <svg width="100%" height="100%" viewBox="0 0 100 60" class="has-bg-light"></svg>
+                    </a>
+                    <div class="card__content has-no-padding-left has-no-padding-right">
+                      <a href="#" class="is-hover-underline">
+                        <h5>Some wonderful photos of ducks I took at the park</h5>
+                      </a>
+                      <p class="grid has-no-col-padding has-text-light-grey">
+                        <small class="column">
+                          September 29, 2019 - Rhys Hall
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-4">
+                  <div class="card has-no-shadow has-no-border">
+                    <a href="#" class="card__image">
+                      <svg width="100%" height="100%" viewBox="0 0 100 60" class="has-bg-light"></svg>
+                    </a>
+                    <div class="card__content has-no-padding-left has-no-padding-right">
+                      <a href="#" class="is-hover-underline">
+                        <h5>Some wonderful photos of ducks I took at the park</h5>
+                      </a>
+                      <p class="grid has-no-col-padding has-text-light-grey">
+                        <small class="column">
+                          September 29, 2019 - Rhys Hall
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero">
+            <div class="hero__content grid has-centered has-link-inherit">
+              <div class="column is-11">
+                <h2>Contact Me</h2>
+              </div>
+              <form class="column is-11 grid has-no-padding" method="POST">
+                <div class="column is-6">
+                  <input type="text" placeholder="Your name">
+                </div>
+                <div class="column is-6">
+                  <input type="email" placeholder="Email address">
+                </div>
+                <div class="column is-12">
+                  <input type="text" placeholder="Subject">
+                </div>
+                <div class="column is-12">
+                  <textarea placeholder="Message..." rows="4" class="has-resize-vertical"></textarea>
+                </div>
+                <div class="column is-12">
+                  <button type="submit" class="button is-primary is-full">Submit message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
