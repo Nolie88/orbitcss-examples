@@ -9,11 +9,9 @@
   <body>
     <section class="hero is-medium has-bg-black has-text-white">
       <div class="hero__header">
-        <div class="top">
+        <div class="top is-mobile-responsive">
           <div class="container">
-            <div class="top__burger is-mobile-only">
-              <span></span>
-              <span></span>
+            <div class="top__burger is-end">
               <span></span>
             </div>
             <div class="top__links">
@@ -24,7 +22,7 @@
                 <li><a href="#">Contact</a></li>
               </ul>
             </div>
-            <div class="is-end">
+            <div class="top__buttons is-end">
               <div class="is-button-group">
                 <a href="#" class="button is-success is-outline is-rounded">
                   Get Started
@@ -44,7 +42,7 @@
             <h4 class="has-font-normal">This could be your company's great new website!</h4>
           </div>
           <div class="column is-full has-no-padding-top">
-            <a href="#" class="button is-large is-rounded is-success has-font-bold" style="width: 200px;">I'm ready!</a>
+            <a href="#" class="button is-large is-rounded is-success" style="width: 200px;">I'm ready!</a>
           </div>
         </div>
       </div>
@@ -53,7 +51,7 @@
       <div class="container grid has-text-center">
         <div class="column is-one-third has-no-padding grid is-vertical">
           <div class="column">
-            <div class="image is-rounded is-margin-center" style="width: 150px">
+            <div class="image is-rounded is-margin-center is-medium-square">
               <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-dark-grey" style="border-radius: 50%"></svg>
             </div>
           </div>
@@ -64,7 +62,7 @@
         </div>
         <div class="column is-one-third has-no-padding grid is-vertical">
           <div class="column">
-            <div class="image is-rounded is-margin-center" style="width: 150px">
+            <div class="image is-rounded is-margin-center is-medium-square">
               <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-dark-grey" style="border-radius: 50%"></svg>
             </div>
           </div>
@@ -75,7 +73,7 @@
         </div>
         <div class="column is-one-third has-no-padding grid is-vertical">
           <div class="column">
-            <div class="image is-rounded is-margin-center" style="width: 150px">
+            <div class="image is-rounded is-margin-center is-medium-square">
               <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-dark-grey" style="border-radius: 50%"></svg>
             </div>
           </div>
@@ -86,12 +84,10 @@
         </div>
       </div>
     </section>
-    <div class="container">
-      <hr class="has-no-margin">
-    </div>
+    <hr>
     <section class="section">
       <div class="container grid">
-        <div class="column is-full">
+        <div class="column">
           <h3>Are you ready...</h3>
           <h4 class="subtitle">To have your mind blown by the super great things that this company does?</h4>
           <p>
@@ -103,7 +99,7 @@
     </section>
     <section class="section has-bg-light">
       <div class="container is-full grid has-centered">
-        <div class="column is-one-third is-desktop-x-one-quarter">
+        <div class="column is-one-third">
           <blockquote>
             <p class="image is-rounded is-tiny-square">
               <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-success" style="border-radius: 50%"></svg>
@@ -112,7 +108,7 @@
             <cite>Call me impressed</cite>
           </blockquote>
         </div>
-        <div class="column is-one-third is-desktop-x-one-quarter">
+        <div class="column is-one-third">
           <blockquote>
             <p class="image is-rounded is-tiny-square">
               <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-primary" style="border-radius: 50%"></svg>
@@ -121,7 +117,7 @@
             <cite>Bob Ross</cite>
           </blockquote>
         </div>
-        <div class="column is-one-third is-desktop-x-one-quarter">
+        <div class="column is-one-third">
           <blockquote>
             <p class="image is-rounded is-tiny-square">
               <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-warning" style="border-radius: 50%"></svg>
@@ -134,27 +130,29 @@
     </section>
     <section class="section">
       <div class="container grid has-centered">
-        <div class="column is-full is-desktop-four-fifths is-desktop-x-three-fifths">
-          <h3>Some more reasons why people love your company</h3>
-        </div>
-        <div class="column is-full is-desktop-four-fifths is-desktop-x-three-fifths">
-          <h5>More great content about your company</h5>
-          <p>uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Do you think they will ever send ducks to space?</p>
-        </div>
-        <div class="column is-full is-desktop-four-fifths is-desktop-x-three-fifths">
-          <h5>More great content about your company</h5>
-          <p>uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Do you think they will ever send ducks to space?</p>
-          <a href="#" class="button is-rounded">I want to learn more</a>
+        <div class="column is-full is-desktop-four-fifths has-no-padding grid is-vertical">
+          <div class="column">
+            <h3>Some more reasons why people love your company</h3>
+          </div>
+          <div class="column">
+            <h5>More great content about your company</h5>
+            <p>uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Do you think they will ever send ducks to space?</p>
+          </div>
+          <div class="column">
+            <h5>More great content about your company</h5>
+            <p>uis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Do you think they will ever send ducks to space?</p>
+            <a href="#" class="button is-rounded">I want to learn more</a>
+          </div>
         </div>
       </div>
     </section>
     <section class="section is-small has-bg-success has-text-white has-text-center">
       <div class="container grid has-centered">
-        <div class="column is-shrink is-vertically-centered">
+        <div class="column is-shrink is-inline-label">
           <h4 class="has-no-margin">You totally want to click this call to action</h4>
         </div>
         <div class="column is-shrink">
-          <button class="button is-rounded has-no-margin has-font-bold" style="width: 200px;">Yeah I totally do</button>
+          <button class="button is-rounded has-no-margin" style="width: 200px;">Yeah I totally do</button>
         </div>
       </div>
     </section>

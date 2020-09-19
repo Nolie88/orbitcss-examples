@@ -13,8 +13,6 @@
         <div class="column is-shrink is-mobile-shrink is-tablet-down">
           <div class="top__burger">
             <span></span>
-            <span></span>
-            <span></span>
           </div>
         </div>
         <div class="top__brand column is-desktop-shrink is-mobile-auto is-vertically-centered">
@@ -23,12 +21,13 @@
         <div class="top__links column is-shrink is-mobile-shrink is-tablet-down">
           <i class="fas fa-shopping-cart fa-lg"></i>
         </div>
-        <div class="top__links column is-end is-full is-desktop-auto is-offset-desktop-1">
+        <div class="top__links column is-full is-desktop-auto is-offset-desktop-1">
           <div class="is-input-group">
-            <input type="text" placeholder="Search for.."
-              style="border-right: none;">
-            <span class="has-bg-white has-text-black">
-              <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search for..">
+            <button class="button is-white is-active">
+              <span class="icon">
+                <i class="fas fa-search"></i>
+              </span>
             </span>
           </div>
         </div>
@@ -79,7 +78,7 @@
     <section class="section">
       <div class="container grid">
         <div class="column is-3 is-desktop-up has-link-inherit">
-          <h5 class="has-no-margin">Shop by Price</h5>
+          <h5>Shop by Price</h5>
           <ul class="has-no-list-style">
             <li><a href="#">Under $100</li>
             <li><a href="#">$100 to $250</a></li>
@@ -91,7 +90,7 @@
             <li><a href="#">Over $10,000</a></li>
           </ul>
           <hr class="has-bg-white">
-          <h5 class="has-no-margin">Accessories</h5>
+          <h5>Accessories</h5>
           <ul class="has-no-list-style">
             <li><a href="#">Office</a></li>
             <li><a href="#">Pets</a></li>
@@ -102,7 +101,7 @@
             <li><a href="#">Storage Solutions</a></li>
           </ul>
         </div>
-        <div class="column is-full is-desktop-9 has-padding-only-sides">
+        <div class="column is-full is-desktop-9 has-no-padding-top has-no-padding-bottom">
           <div class="grid">
             <div class="column is-full">
               <nav class="breadcrumb">
@@ -115,7 +114,7 @@
             <div class="column">
               <h4>Product catalogue</h4>
             </div>
-            <div class="column is-shrink is-mobile-shrink is-inline-label has-no-padding-sides">
+            <div class="column is-shrink is-mobile-shrink is-inline-label has-no-padding-right">
               <label>Sort by:</label>
             </div>
             <div class="column is-shrink is-mobile-shrink is-inline-label">
@@ -409,10 +408,12 @@
           <ul class="has-no-list-style">
             <li>
               <p>
-                <i class="fab fa-facebook fa-2x"></i>
-                <i class="fab fa-twitter fa-2x"></i>
-                <i class="fab fa-pinterest fa-2x"></i>
-                <i class="fab fa-instagram fa-2x"></i>
+                <ul class="is-inline-list">
+                  <li><i class="fab fa-facebook fa-2x"></i></li>
+                  <li><i class="fab fa-twitter fa-2x"></i></li>
+                  <li><i class="fab fa-pinterest fa-2x"></i></li>
+                  <li><i class="fab fa-instagram fa-2x"></i></li>
+                </ul>
               </p>
             <li>
             <li>

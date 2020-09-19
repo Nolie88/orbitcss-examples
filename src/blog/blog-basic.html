@@ -10,6 +10,12 @@
       .top--bar {
         padding: 0.75rem 2rem;
       }
+
+      @media (min-width: 768px) {
+        .headshot {
+          margin: -60px 0 20px;
+        }
+      }
     </style>
   </head>
   <body class="has-bg-light">
@@ -23,17 +29,19 @@
             <li><a href="#"><i class="fab fa-youtube"></i></a></li>
           </ul>
         </div>
-        <div class="is-end">
-          <div class="is-input-group">
-            <input type="text" placeholder="Search.." style="width: 300px;" class="has-bg-black has-text-white has-no-border">
-            <span class="has-bg-black has-no-border">
-              <i class="fas fa-search"></i>
+        <div class="top__links is-end is-tablet-up">
+          <div class="is-input-group has-text-white">
+            <input type="text" placeholder="Search.." style="width: 300px;" class="has-bg-black has-no-border">
+            <span class="button is-black has-no-border">
+              <span class="icon">
+                <i class="fas fa-search"></i>
+              </span>
             </span>
           </div>
         </div>
       </nav>
-      <div class="top">
-        <div class="container grid">
+      <div class="top is-mobile-responsive">
+        <div class="container grid has-centered">
           <div class="column is-full top__brand">
             <h1 class="is-margin-center">Your Blog</h1>
           </div>
@@ -55,14 +63,17 @@
             </ul>
             <hr>
           </div>
+          <div class="top__burger">
+            <span></span>
+          </div>
         </div>
       </div>
       <div class="hero">
         <div class="hero__content is-small has-no-padding-top">
           <svg width="100%" height="100%" viewBox="0 0 100 40" class="has-bg-light"></svg>
         </div>
-        <div class="hero__content grid has-no-padding-top has-link-inherit">
-          <div class="column is-two-thirds grid has-no-padding is-flex-start">
+        <div class="hero__content grid has-no-padding-top has-link-inherit is-flex-start">
+          <div class="column is-two-thirds grid has-no-padding">
             <div class="column is-half has-no-padding-left">
               <div class="card has-no-shadow">
                 <a href="#" class="card__image">
@@ -77,7 +88,7 @@
                       <i class="far fa-comments"></i> 2
                     </small>
                   </p>
-                  <a href="#" class="is-hover-underline">
+                  <a href="#">
                     <h5>Some wonderful photos of ducks I took at the park</h5>
                   </a>
                 </div>
@@ -97,7 +108,7 @@
                       <i class="far fa-comments"></i> 2
                     </small>
                   </p>
-                  <a href="#" class="is-hover-underline">
+                  <a href="#">
                     <h5>Some wonderful photos of ducks I took at the park</h5>
                   </a>
                 </div>
@@ -117,7 +128,7 @@
                       <i class="far fa-comments"></i> 2
                     </small>
                   </p>
-                  <a href="#" class="is-hover-underline">
+                  <a href="#">
                     <h5>Some wonderful photos of ducks I took at the park</h5>
                   </a>
                 </div>
@@ -137,7 +148,7 @@
                       <i class="far fa-comments"></i> 2
                     </small>
                   </p>
-                  <a href="#" class="is-hover-underline">
+                  <a href="#">
                     <h5>Some wonderful photos of ducks I took at the park</h5>
                   </a>
                 </div>
@@ -156,11 +167,11 @@
               </nav>
             </div>
           </div>
-          <div class="column is-one-third grid is-vertical has-no-padding is-flex-start has-row-margin">
-            <div class="column has-no-margin">
+          <div class="column is-one-third grid is-vertical has-no-padding">
+            <div class="column">
               <div class="card has-no-shadow">
                 <div class="card__content has-text-center">
-                  <div style="margin: -60px 0 20px;">
+                  <div class="headshot">
                     <div class="image is-small-square is-round is-margin-center">
                       <svg width="100%" height="100%" viewBox="0 0 100 100" class="has-bg-light" style="border-radius: 50%;"></svg>
                     </div>
@@ -221,7 +232,7 @@
             </div>
           </div>
         </div>
-        <div class="hero__content has-bg-black has-text-white has-link-inherit grid">
+        <div class="hero__content has-bg-black has-text-white has-link-inherit grid is-flex-start">
           <div class="column is-one-third has-no-padding is-vertical">
             <div class="column">
               <h5>Rhys Hall</h5>
@@ -277,7 +288,7 @@
               </a>
             </div>
           </div>
-          <div class="column is-offset-1 grid has-no-padding is-flex-start">
+          <div class="column is-offset-1 grid has-no-padding">
             <div class="column">
               <h5>Quick links</h5>
             </div>
