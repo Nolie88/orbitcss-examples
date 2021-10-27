@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/orbitcss/css/orbit.min.css">
     <title>OrbitCSS - Company Blog Example</title>
+
+    <style>
+      .pagination.has-border {
+        --active-background-color: var(--color-dark);
+        --active-font-color: var(--color-white);
+        --active-border-color: var(--color-dark);
+        --hover-background-color: var(--color-dark);
+        --hover-font-color: var(--color-white);
+        --hover-border-color: var(--color-dark);
+      }
+    </style>
   </head>
   <body>
     <nav class="top has-bg-dark has-text-white is-mobile-responsive">
@@ -32,8 +43,8 @@
         </div>
       </div>
     </nav>
-    <section class="hero has-bg-light">
-      <div class="hero__content">
+    <section class="hero">
+      <div class="hero__content has-bg-light">
         <div class="container grid">
           <div class="column">
             <nav class="breadcrumb">

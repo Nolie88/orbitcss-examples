@@ -8,7 +8,21 @@
     <title>OrbitCSS - Basic Blog Example</title>
     <style>
       .top--bar {
-        padding: 0.75rem 2rem;
+        --padding: 0.75rem 2rem;
+      }
+
+      .top--bar input {
+        --width: 300px;
+      }
+
+      .top--nav .top__links {
+        --text-align: center;
+      }
+
+      @media (max-width: 767px) {
+        .top--nav .top__links {
+          --text-align: start;
+        }
       }
 
       @media (min-width: 768px) {
@@ -30,8 +44,8 @@
           </ul>
         </div>
         <div class="top__links is-end is-tablet-up">
-          <div class="is-input-group has-text-white">
-            <input type="text" placeholder="Search.." style="width: 300px;" class="has-bg-black has-no-border">
+          <div class="is-input-group">
+            <input type="text" placeholder="Search.." class="has-bg-black has-text-white has-no-border">
             <span class="button is-black has-no-border">
               <span class="icon">
                 <i class="fas fa-search"></i>
@@ -40,12 +54,12 @@
           </div>
         </div>
       </nav>
-      <div class="top is-mobile-responsive">
+      <div class="top top--nav is-mobile-responsive">
         <div class="container grid has-centered">
           <div class="column is-full top__brand">
             <h1 class="is-margin-center">Your Blog</h1>
           </div>
-          <div class="column is-full top__links has-text-center">
+          <div class="column is-full top__links">
             <ul>
               <li><a href="#">Home</a></li>
               <li><a href="#">Travel</a></li>
@@ -63,7 +77,8 @@
             </ul>
             <hr>
           </div>
-          <div class="top__burger">
+          <div class="top__burger"
+            onclick="this.closest('.top').classList.toggle('is-open'); this.classList.toggle('is-active');">
             <span></span>
           </div>
         </div>
